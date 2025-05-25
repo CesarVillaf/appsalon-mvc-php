@@ -7,7 +7,7 @@ html {
     height: 100%;
 }
 body {
-    min-height: 100%; // Mínimo el 100% (Aunque no haya tanto contenido, pero si hay más, puede tomás más del 100%).
+    min-height: 100%; // Mínimo el 100% (Aunque no haya tanto contenido, pero si hay más, puede tomar más del 100%).
 
     @include m.tablet {
         height: 100%; // Hasta el 100%
