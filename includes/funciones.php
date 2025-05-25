@@ -36,7 +36,6 @@ function isAdmin(): void {
     }
 }
 
-
 function isSession() : void {
     if(!isset($_SESSION)) {
         session_start();
